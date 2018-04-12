@@ -113,6 +113,8 @@ function main(args) {
     })
 }
 
+exports.main = main
+
 if (require.main === module) {
     main(process.argv.length > 2 ? JSON.parse(process.argv[2]) : {})
 }
