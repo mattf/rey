@@ -1,0 +1,7 @@
+{
+    "name": "rey",
+    "dependencies": {
+        "request": "latest",
+        "infinispan": "latest"
+    }
+}
